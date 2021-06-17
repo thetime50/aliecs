@@ -1,5 +1,9 @@
 
-http://120.79.5.38, http://www.thetime50.com, http://thetime50.com {
+http://120.79.5.38, http://www.thetime50.com{
+    redir http://thetime50.com{uri} permanent
+}
+
+http://thetime50.com {
     root * /project
 	try_files  {path}.html  {path} 
     file_server
