@@ -1,8 +1,9 @@
 
 http://120.79.5.38, http://www.thetime50.com, http://thetime50.com {
     root * /project
+	try_files  {path}.html  {path} 
     file_server
-    # gzip
+    # gzip // 这个配置就是不行??
     # log /data/access.log
 }
 
