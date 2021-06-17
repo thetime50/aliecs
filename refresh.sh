@@ -1,4 +1,4 @@
-base_path="/home/zero/thetime50"
+base_path="/home/thetime/project"
 
 cd $base_path"/aliecs"
 git pull
