@@ -32,6 +32,11 @@ git pull
 echo `pwd`
 echo -
 
+cd $base_path"/show-page"
+git pull
+echo `pwd`
+echo -
+
 echo -
 echo -- $(date +%Y-%m-%d %H:%m:%s) --
 echo -
